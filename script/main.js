@@ -72,3 +72,8 @@ function sett() {
     let sett = document.getElementsByTagName('section')[0];
     sett.classList.toggle('open');
 }
+
+//swipe 
+window.addEventListener('swipe-left', sett);
+
+window.addEventListener('swipe-right', sett);
