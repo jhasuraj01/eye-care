@@ -1,10 +1,11 @@
-const cacheName = 'v1';
+const cacheName = 'v2';
 const assets = [
     './index.html',
     './script/main.js',
     './style/style.css',
     './pwa/manifest.json',
     './pwa/registerSW.js',
+    './script/swipe.js',
     './images/icons/icon-48.png',
     './images/icons/icon-72.png',
     './images/icons/icon-96.png',
@@ -12,7 +13,8 @@ const assets = [
     './images/icons/icon-168.png',
     './images/icons/icon-192.png',
     './images/icons/icon-512.png',
-    './images/icons/icon-256.png'
+    './images/icons/icon-256.png',
+    './sound/music.mp3'
 ];
 
 // Call install event

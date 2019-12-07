@@ -1,6 +1,6 @@
 {
     "name": "Eye Care",
-    "short_name": "Eye-Care",
+    "short_name": "Eye Care",
     "icons": [
         {
             "src": "images/icons/icon-48.png",
@@ -43,8 +43,10 @@
             "type": "image/png"
         }
     ],
+    "start_url": "/eye-care/",
     "orientation": "portrait",
     "display": "standalone",
     "theme_color": "#1c1c1c",
-    "background_color": "#1c1c1c"
+    "background_color": "#1c1c1c",
+    "scope": "/eye-care/"
 }
