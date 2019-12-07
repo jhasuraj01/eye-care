@@ -74,6 +74,6 @@ function sett() {
 }
 
 //swipe 
-window.addEventListener('swipe-left', sett);
+window.addEventListener('swiped-left', sett);
 
-window.addEventListener('swipe-right', sett);
+window.addEventListener('swiped-right', sett);
