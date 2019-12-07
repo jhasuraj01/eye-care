@@ -20,7 +20,7 @@
 
 .setting-logo {
   display: block;
-  padding: 10px;
+  padding: 6px;
   position: fixed;
   top: 0;
   left: 0;
@@ -261,13 +261,13 @@ section {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   p {
     font-size: xx-small;
   }
   section {
     width: calc(100% - 40px);
-    height: calc(100% - 20px);
+    height: calc(100% - 40px);
   }
 }
 

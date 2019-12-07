@@ -1,6 +1,6 @@
 //global variables
 var min, sec, total_sec, tog = null;
-const val = .1;
+const val = 20;
 var music;
 // event listener
 window.addEventListener('load', init);
@@ -58,7 +58,7 @@ function show_time() {
         min.innerText = '00';
         sec.innerText = '00';
         if (document.getElementById('vibrate').checked) {
-            window.navigator.vibrate([800, 300, 800, 300, 800, 300, 800, 300, 800]);
+            window.navigator.vibrate([500, 300, 500, 300, , 500, 300, 500, 300, 800]);
         }
         if (document.getElementById('sound').checked) {
             music.play();
