@@ -58,7 +58,7 @@ function show_time() {
         min.innerText = '00';
         sec.innerText = '00';
         if (document.getElementById('vibrate').checked) {
-            window.navigator.vibrate([200, 100, 200]);
+            window.navigator.vibrate([800, 300, 800, 300, 800, 300, 800, 300, 800]);
         }
         if (document.getElementById('sound').checked) {
             music.play();

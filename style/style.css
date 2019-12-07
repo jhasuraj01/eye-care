@@ -12,7 +12,7 @@
   --theme: #1c1c1c;
   --color: white;
   --side: 76vw;
-  --logo: 50px;
+  --logo: 46px;
   --max: 320px;
   --shadow: rgba(239, 239, 239, 0.2);
   --grad: linear-gradient(to left, #45B649, #DCE35B);
@@ -20,7 +20,7 @@
 
 .setting-logo {
   display: block;
-  padding: 8px;
+  padding: 14px;
   position: fixed;
   top: 0;
   left: 0;
@@ -157,7 +157,7 @@ h1 {
 #sec,
 #col,
 #min {
-  font-size: 2em;
+  font-size: 2.6em;
 }
 
 .txt {
@@ -263,11 +263,6 @@ section {
 @media (max-width: 600px) {
   p {
     font-size: xx-small;
-  }
-  #sec,
-  #col,
-  #min {
-    font-size: 2em;
   }
   section {
     width: calc(100% - 40px);
