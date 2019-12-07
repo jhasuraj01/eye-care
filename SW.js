@@ -6,6 +6,10 @@ const assets = [
     './pwa/manifest.json',
     './pwa/registerSW.js',
     './images/icons/icon-48.png',
+    './images/icons/icon-72.png',
+    './images/icons/icon-96.png',
+    './images/icons/icon-144.png',
+    './images/icons/icon-168.png',
     './images/icons/icon-192.png',
     './images/icons/icon-512.png',
     './images/icons/icon-256.png'

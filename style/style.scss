@@ -19,7 +19,7 @@
 
  .setting-logo {
      display: block;
-     padding: 14px;
+     padding: 10px;
      position: fixed;
      top: 0;
      left: 0;
@@ -117,7 +117,7 @@
  #sec,
  #col,
  #min {
-     font-size: 2.6em;
+     font-size: 2.7em;
  }
 
  .txt {
@@ -141,6 +141,7 @@
      margin-bottom: 6px;
      box-shadow: 0 2px 8px var(--shadow);
      letter-spacing: 2px;
+     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
  }
 
  button:active {
