@@ -1,6 +1,6 @@
 //global variables
 var min, sec, total_sec, tog = null;
-const val = 20;
+const val = .1;
 var music;
 // event listener
 window.addEventListener('load', init);
